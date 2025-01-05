@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.listSection {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 1rem;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    background-color: #f9f9f9;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.todo-item span {
+    font-size: 1rem;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.delete-btn {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER SECTION */
+/* .headerPart {
+    padding: 1rem;
+    background-color: white;
+    height: 1.5rem;
+    min-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* MAIN BODY SECTION */
+.bodyPart {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 80vh;
+    width: 100vw;
+}
+
+
+
+
+
+/* LEFT SECTION  */
+.leftSection {
+    min-width: 300px;
+    width: 60%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* CARD SECTION */
+.cardWrapper {
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1.2rem;
+}
+
+.cardHeading {
+    color: rgb(41, 41, 183);
+    margin-top: 1.1rem;
+    margin-left: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.inputWrapper {
+    /* display: flex;
+    align-self: center; */
+    width: 70%;
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.inputSearch {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 23px;
+    /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.345); */
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: text;
+}
+
+.searchInput {
+    display: inline-flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Centers content vertically */
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    cursor: pointer;
+    background-color: orange;
+    height: 100%;
+    width: 25%;
+    border-radius: 23px;
+    text-align: center;
+    font-weight: bold;
+    align-self: center;
+}
+
+
+
+/* RIGHT SECTION */
+.rightSection {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.rightCardContainer {
+    flex: 1;
+    width: 100%;
+    height: 60%;
+}
+
+.r1 {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+}
+
+.r2 {
+    letter-spacing: 5px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.paraSub {
+    color: orange;
+}
+
+.r3 {
+    letter-spacing: 2px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+}

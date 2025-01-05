@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main class="bodyPart">
+      <!-- LEFT SECTION -->
+      <section class="leftSection">
+        <div class="cardWrapper">
+          <!-- HEADING -->
+          <h2 class="cardHeading">
+            To-Do List
+            <img src="todo.png" alt="todo image" height="18px" width="18px" />
+          </h2>
+          <!-- INPUT -->
+          <div class="inputWrapper">
+            <input
+              id="todoInput"
+              class="inputSearch"
+              type="text"
+              placeholder="Write To-Do Task Here"
+            />
+            <span id="addTodoBtn" class="searchInput">Add</span>
+          </div>
+          <!-- TO-DO LIST -->
+          <section id="todoList" class="listSection"></section>
+        </div>
+      </section>
+
+      <!-- RIGHT SECTION -->
+      <section class="rightSection">
+        <div class="rightCardContainer">
+          <p class="r1">Built</p>
+          <p class="r2"><span class="paraSub">To-Do</span> List</p>
+          <p class="r3">Using JavaScript</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
